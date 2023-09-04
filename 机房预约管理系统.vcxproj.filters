@@ -18,10 +18,60 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="manager\manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="student\student.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teacher\teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orderfile\orderfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="files.h">
+    <ClInclude Include="files\files.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="identity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="student\student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teacher\teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orderfile\orderfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="files\admin.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="files\order.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="files\rooms.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="files\student.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="files\teacher.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
